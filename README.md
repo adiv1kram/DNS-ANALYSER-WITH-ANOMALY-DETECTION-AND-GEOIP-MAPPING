@@ -13,11 +13,40 @@ This project is a "DNS Analyzer" that processes **PCAP files** to detect anomali
 
 ### Prerequisites
 Ensure you have the following installed:
-- Python 3.x
+- Python 3.11.2
 - Required libraries (install using the command below):
+  ```bash
+      pip install scapy geoip2 matplotlib folium
+  ```
+  - Scapy → For packet capture and analysis 
+  ```bash
+    pip install scapy
+  ```
+  - GeoIP2 → For GeoIP lookup of source IP addresses
   ```bash
   pip install scapy geoip2 matplotlib folium
   ```
+  - Matplotlib → For plotting and data visualization
+  ```bash
+  pip install matplotlib
+  ```
+  - folium → For generating an interactive GeoIP map
+  ```bash
+    pip install folium
+  ```
+  - argparse → For handling command-line arguments (built into Python, no need to install separately)
+  ```bash
+    pip install argparse
+  ```
+  - sys → Provides system-specific parameters and functions (built into Python, no need to install separately)
+  ```bash
+    pip install sys
+  ```
+  - random → Generates random values for assigning private IP locations (built into Python, no need to install separately)
+  ```bash
+    pip install random
+  ```
+  
 
 ### GeoIP Database
 Download and place the **GeoLite2-City.mmdb** database in the project directory. You can get it from [MaxMind](https://www.maxmind.com/en/geoip2-databases).
@@ -30,7 +59,7 @@ python dns_analyzer.py -f <path_to_pcap> -o <output_report.txt>
 ```
 Example:
 ```bash
-python dns_analyzer.py -f example.pcap -o dns_report.txt
+python dns_analyzer.py -f your_own.pcapng -o dns_report.txt  
 ```
 
 ## Output
