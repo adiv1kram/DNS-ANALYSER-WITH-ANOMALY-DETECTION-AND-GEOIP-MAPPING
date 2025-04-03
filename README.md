@@ -53,9 +53,9 @@ Download and place the **GeoLite2-City.mmdb** database in the project directory.
 - I have uploaded the **GeoLite2-City.mmdb** file in the repository as well.
 
 ## Usage
-Run the script with the following command:
+Run the script using the pcapng file from the repository with the following command:
 ```bash
-python dns_analyzer.py -f <path_to_pcap> -o <output_report.txt>
+python dns_analyzer.py -f tfp_capture.pcapng -o output_report.txt
 ```
 Example:
 ```bash
