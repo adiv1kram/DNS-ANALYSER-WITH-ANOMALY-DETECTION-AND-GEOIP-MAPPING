@@ -50,7 +50,7 @@ Ensure you have the following installed:
 
 ### GeoIP Database
 Download and place the **GeoLite2-City.mmdb** database in the project directory. You can get it from [MaxMind](https://www.maxmind.com/en/geoip2-databases).
-- I have uploaded the **GeoLite2-City.mmdb** file in the repository as well.
+
 
 ## Usage
 Run the script using the pcapng file from the repository with the following command:
