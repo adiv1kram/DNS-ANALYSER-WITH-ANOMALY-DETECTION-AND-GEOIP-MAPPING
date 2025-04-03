@@ -1,0 +1,16 @@
+DNS Analysis Report
+===================
+
+Top Statistics:
+- Total DNS packets: 30
+- Unique source IPs: 3
+- Unique domains queried: 5
+
+Anomalies Detected:
+- UNUSUAL_QTYPE: (6 occurrences)
+- TXT_RESPONSE: 
+- LONG_SUBDOMAIN: 
+- LONG_SUBDOMAIN: 
+- TXT_RESPONSE: 
+- LONG_SUBDOMAIN: 
+- TXT_RESPONSE: 
