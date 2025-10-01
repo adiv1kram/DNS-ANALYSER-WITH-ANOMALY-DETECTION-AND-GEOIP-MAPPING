@@ -1,7 +1,7 @@
 # DNS-ANALYSER-WITH-ANOMALY-DETECTION-AND-GEOIP-MAPPING
 
 ## Overview
-This project is a "DNS Analyzer" that processes **PCAP files** to detect anomalies in DNS traffic and map the geographical locations of source IPs. It provides insights into suspicious DNS activity and visualizes it using a world map.
+This project is a "DNS Analyzer" that processes **PCAP files** as well as live **Live Packet Analysis** to detect anomalies in DNS traffic and map the geographical locations of source IPs. It provides insights into suspicious DNS activity and visualizes it using a world map.
 
 ## Features
 - **Anomaly Detection**: Identifies unusual DNS queries, excessive NXDOMAIN responses, high traffic sources, and long subdomains.
